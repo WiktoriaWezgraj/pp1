@@ -9,7 +9,7 @@ f("") 🡪 ""
 
 '''''
 def f(word):
-    result = ""
+    result= ""
     for i in range(len(word)):
         wave = word[:i].lower() + word[i].capitalize() + word[i+1:].lower()
         result += wave + "-"
@@ -17,4 +17,3 @@ def f(word):
 
 if __name__ == "__main__":
     f("book")
-
