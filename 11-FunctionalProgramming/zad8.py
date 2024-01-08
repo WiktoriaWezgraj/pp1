@@ -7,6 +7,7 @@
 def ms_to_kmh(ms):
     ms = int(input("Speed: "))
     speed = lambda ms: ms*3.6
-    return speed(ms)
+    print(f"Speed in km/h: {speed} ")
 
-print(f"Speed in km/h: ")
+if __name__ == "__main__":
+    print(ms_to_kmh())
