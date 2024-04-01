@@ -8,10 +8,10 @@ total_sum = 0
 count = 0
 
 # for num in arr
-while ...:
-    total_sum += ...
+while count<len(arr):
+    total_sum += arr[count]
     count += 1
 
 mean = total_sum / count
 
-print("Array:", arr, "Arithmetic mean:", mean)
+print(f"Array: {arr} Arithmetic mean: {mean:.1f}")
